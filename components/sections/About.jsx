@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section id="about" className="max-w-[1300px] mx-auto pt-[5rem]">
+    <section id="about" className="max-w-[1300px] mx-auto pt-[6rem]">
       <div className="flex flex-col items-center">
         <span className="relative text-[2.8rem] font-[600] mb-[5rem]">
           About Me{" "}

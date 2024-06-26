@@ -13,10 +13,10 @@ const Header = () => {
             <Link href="#about">About</Link>
           </li>
           <li className="transition duration-300 ease-in text-neutral-400 hover:text-neutral-800">
-            <Link href="#work">Work</Link>
+            <Link href="#skills">Skills</Link>
           </li>
           <li className="transition duration-300 ease-in text-neutral-400 hover:text-neutral-800">
-            <Link href="#skills">Skills</Link>
+            <Link href="#work">Work</Link>
           </li>
           <li className="transition duration-300 ease-in text-neutral-400 hover:text-neutral-800">
             <Link href="#qualification">Qualification</Link>
