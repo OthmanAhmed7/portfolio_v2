@@ -22,6 +22,10 @@ module.exports = {
         "neutral-400": "#5e5e5f",
         "neutral-200": "#9fa0a0",
       },
+
+      translate: {
+        "6px-7px": "6px, -7px",
+      },
     },
   },
   plugins: [],
