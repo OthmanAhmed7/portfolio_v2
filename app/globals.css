@@ -9,3 +9,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.gradient__bg {
+  background-image: linear-gradient(
+    to right bottom,
+    #002853,
+    #032243,
+    #061b34,
+    #081526,
+    #040c18
+  );
+}

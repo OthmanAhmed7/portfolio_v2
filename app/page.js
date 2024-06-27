@@ -4,6 +4,7 @@ import Hero from "@/components/sections/Hero";
 import InfiniteMarquee from "@/components/sections/InfiniteMarquee";
 import Qualification from "@/components/sections/Qualification";
 import Skill from "@/components/sections/Skill";
+import Work from "@/components/sections/Work";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Skill />
       <Qualification />
+      <Work />
     </div>
   );
 }
