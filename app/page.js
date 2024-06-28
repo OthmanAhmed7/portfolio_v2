@@ -1,4 +1,5 @@
 import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import InfiniteMarquee from "@/components/sections/InfiniteMarquee";
@@ -16,6 +17,7 @@ export default function Home() {
       <Skill />
       <Qualification />
       <Work />
+      <Contact />
     </div>
   );
 }
