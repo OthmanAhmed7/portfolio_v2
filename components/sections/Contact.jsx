@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section id="contact" className="max-w-[1300px] mx-auto pt-[6rem]">
+    <section id="contact" className="max-w-[1300px] mx-auto py-[6rem]">
       <div className="flex flex-col items-center">
         <span className="relative text-[2.8rem] font-[600] mb-[2rem]">
           Contact Me{" "}

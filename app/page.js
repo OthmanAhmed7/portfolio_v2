@@ -1,5 +1,6 @@
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
+import Footer from "@/components/sections/Footer";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import InfiniteMarquee from "@/components/sections/InfiniteMarquee";
@@ -18,6 +19,7 @@ export default function Home() {
       <Qualification />
       <Work />
       <Contact />
+      <Footer />
     </div>
   );
 }
