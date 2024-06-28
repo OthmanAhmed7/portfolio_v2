@@ -8,7 +8,10 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section id="contact" className="max-w-[1300px] mx-auto py-[6rem]">
+    <section
+      id="contact"
+      className="max-w-[1300px] mx-auto py-[6rem] px-[1rem]"
+    >
       <div className="flex flex-col items-center">
         <span className="relative text-[2.8rem] font-[600] mb-[2rem]">
           Contact Me{" "}
@@ -23,9 +26,9 @@ const Contact = () => {
         </span>
       </div>
 
-      <div className="grid grid-cols-2 gap-[5rem] mt-[5rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[5rem] mt-[5rem]">
         <div className="flex flex-col gap-[2rem]">
-          <div className="flex flex-col items-center py-[1.5rem] w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
             <MdOutlineMailOutline className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -35,7 +38,7 @@ const Contact = () => {
             <p className="text-neutral-400">othmanahmed258@gmail.com</p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
             <FaWhatsapp className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -45,7 +48,7 @@ const Contact = () => {
             <p className="text-neutral-400">+0201011889502</p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
             <FaLinkedin className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -63,7 +66,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
             <FaGithub className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">

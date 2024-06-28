@@ -7,7 +7,10 @@ const Qualification = () => {
   const [type, setType] = useState("education");
 
   return (
-    <section id="qualification" className="max-w-[1300px] mx-auto pt-[6rem]">
+    <section
+      id="qualification"
+      className="max-w-[1300px] mx-auto pt-[6rem] px-[1rem]"
+    >
       <div className="flex flex-col items-center">
         <span className="relative text-[2.8rem] font-[600] mb-[2rem]">
           Qualifications{" "}
@@ -40,11 +43,13 @@ const Qualification = () => {
 
         {type === "education" && (
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">Computer Science</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Computer Science
+                </h3>
                 <span className="text-neutral-400">Harvard Online</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Feb 2024 - May 2024{" "}
                 </div>
               </div>
@@ -55,7 +60,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div></div>
 
               <div>
@@ -64,21 +69,23 @@ const Qualification = () => {
               </div>
 
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
                   Front-end Development
                 </h3>
                 <span className="text-neutral-400">Youtube</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Nov 2023 - jan 2024{" "}
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">Web Development</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Web Development
+                </h3>
                 <span className="text-neutral-400">LinkedIn Learning</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Aug 2021 - Aug 2022{" "}
                 </div>
               </div>
@@ -89,7 +96,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div></div>
 
               <div>
@@ -97,9 +104,11 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="text-[1.1rem] font-[500]">Civil Engineering</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Civil Engineering
+                </h3>
                 <span className="text-neutral-400">New Cairo Academy</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Sep 2017 - Jun 2022{" "}
                 </div>
               </div>
@@ -109,11 +118,13 @@ const Qualification = () => {
 
         {type === "experience" && (
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">Frontend Developer</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Frontend Developer
+                </h3>
                 <span className="text-neutral-400">Freelance</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> May 2024 - Present{" "}
                 </div>
               </div>
@@ -124,7 +135,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div></div>
 
               <div>
@@ -133,21 +144,25 @@ const Qualification = () => {
               </div>
 
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">Civil Engineer</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Civil Engineer
+                </h3>
                 <span className="text-neutral-400">
                   Egyptian Armed Forces Engineering Authority
                 </span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.7rem] md:text-[1rem]">
                   <LuCalendarDays /> Oct 2022 - Feb 2024{" "}
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div className="pb-[2rem]">
-                <h3 className="text-[1.1rem] font-[500]">Assistant Director</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Assistant Director
+                </h3>
                 <span className="text-neutral-400">Villa Hanin</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.7rem] md:text-[1rem]">
                   <LuCalendarDays /> Apr 2020 - May 2022{" "}
                 </div>
               </div>
@@ -158,7 +173,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[3rem]">
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div></div>
 
               <div>
@@ -166,9 +181,11 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="text-[1.1rem] font-[500]">Assistant Engineer</h3>
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Assistant Engineer
+                </h3>
                 <span className="text-neutral-400">Omar Dora Designs</span>
-                <div className="flex gap-[.5rem] items-center">
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Jul 2018 - Apr 2020{" "}
                 </div>
               </div>

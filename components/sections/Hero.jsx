@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="max-w-[1300px] mx-auto text-center gap-[1rem] h-[100vh] flex flex-col items-center justify-center relative">
+    <section className="max-w-[1300px] mx-auto text-center gap-[1rem] h-[100vh] flex flex-col items-center justify-center relative px-[1rem]">
       <Image
         src="/img/me1.png"
         width={700}
@@ -13,9 +13,11 @@ const Hero = () => {
         className="w-[100px] h-[100px] rounded-full"
       />
 
-      <p className="text-[1.4rem] font-[600]">Hi, I&rsquo;m Othman 🧑🏻‍💻</p>
+      <p className="text-[1rem] md:text-[1.4rem] font-[600]">
+        Hi, I&rsquo;m Othman 🧑🏻‍💻
+      </p>
 
-      <h1 className="text-[4rem] max-w-[650px] font-[600] leading-[4.3rem] relative z-[30]">
+      <h1 className="text-[2.5rem] md:text-[4rem] max-w-[650px] font-[600] md:leading-[4.3rem] relative z-[30]">
         <span className="relative z-[30] h-full">
           Building{" "}
           <svg
@@ -30,7 +32,7 @@ const Hero = () => {
         web apps, products, and experience.
       </h1>
 
-      <p className="text-[1.4rem] max-w-[500px] mb-[1rem]">
+      <p className="text-[1rem] md:text-[1.4rem] max-w-[500px] mb-[1rem]">
         ambitious
         <strong> Front-end developer </strong>
         specializes in building interactive, functional, and fully responsive
@@ -39,8 +41,8 @@ const Hero = () => {
 
       <button>
         <Link
-          href="/contact"
-          className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1.1rem]"
+          href="#contact"
+          className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1rem] md:text-[1.1rem]"
         >
           Connect With Me
         </Link>

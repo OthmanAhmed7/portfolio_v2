@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Work = () => {
   return (
-    <section id="work" className="max-w-[1300px] mx-auto pt-[6rem]">
+    <section id="work" className="max-w-[1300px] mx-auto pt-[6rem] px-[1rem]">
       <div className="flex flex-col items-center">
         <span className="relative text-[2.8rem] font-[600] mb-[2rem]">
           My Work{" "}
@@ -21,7 +21,7 @@ const Work = () => {
         </span>
       </div>
 
-      <div className="grid grid-cols-3 gap-[4rem] mt-[4rem]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-[2rem] lg:gap-[4rem] mt-[4rem]">
         <div className="rounded-[.8rem] shadow-xl">
           <div className="w-full h-[18rem] overflow-hidden relative">
             <Image
@@ -55,7 +55,7 @@ const Work = () => {
               My Portfolio
             </h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 Next.js
               </p>
@@ -109,7 +109,7 @@ const Work = () => {
           <div className="p-[1.5rem]">
             <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">Furniture</h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 Next.js
               </p>
@@ -166,7 +166,7 @@ const Work = () => {
           <div className="p-[1.5rem]">
             <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">Hoo Bank</h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
@@ -214,7 +214,7 @@ const Work = () => {
           <div className="p-[1.5rem]">
             <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">GPT-3</h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
@@ -267,7 +267,7 @@ const Work = () => {
               Gericht Restaurant
             </h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
@@ -315,7 +315,7 @@ const Work = () => {
           <div className="p-[1.5rem]">
             <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">SushiMan</h3>
 
-            <div className="flex items-center gap-[1rem] mb-[1rem]">
+            <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 HTML
               </p>

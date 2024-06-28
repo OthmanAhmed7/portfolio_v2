@@ -18,19 +18,19 @@ const About = () => {
           </svg>
         </span>
 
-        <div className="flex items-start justify-center">
-          <div className="flex-1">
+        <div className="flex flex-col lg:flex-row px-[1rem] items-center lg:items-start justify-center">
+          <div className="flex-1 mb-[1rem] md:mb-[1.5rem] lg:mb-0">
             <Image
               src="/img/me2.png"
               width={1000}
               height={1000}
               alt="My Photo"
-              className="w-[30rem] rounded-[.8rem]"
+              className="w-[100vw] lg:w-[30rem] rounded-[.8rem]"
             />
           </div>
 
           <div className="flex-1">
-            <div className="text-[1.2rem] text-neutral-400 leading-[2.5rem] mb-[2rem]">
+            <div className="text-[1.2rem] text-neutral-400 leading-[2rem] lg:leading-[2.5rem] mb-[1rem] md:mb-[1.5rem] lg:mb-[2rem]">
               <p>
                 As a frontend developer, my passion for crafting immersive
                 digital experiences drives me in every project I undertake. What

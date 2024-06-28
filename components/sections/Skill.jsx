@@ -39,7 +39,7 @@ const Skill = () => {
           </button>
         </div>
         {skillType === "technical" && (
-          <div className="flex flex-wrap gap-[2rem]">
+          <div className="flex flex-wrap gap-[2rem] items-center justify-center">
             <div className="flex flex-col items-center gap-[.5rem] group">
               <Image
                 src="/img/html-1.svg"
@@ -199,7 +199,7 @@ const Skill = () => {
         )}
 
         {skillType === "soft" && (
-          <div className="flex gap-[15rem]">
+          <div className="flex flex-col md:flex-row gap-[1.5rem] md:gap-[10rem] lg:gap-[15rem]">
             <div className="flex flex-col gap-[1.5rem]">
               <p className="flex items-center gap-[.5rem]">
                 <FaCheckCircle className="text-primary-400 w-[22px] h-[22px]" />{" "}
