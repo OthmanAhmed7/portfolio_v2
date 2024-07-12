@@ -35,7 +35,7 @@ const Contact = () => {
               Email
             </h3>
 
-            <p className="text-neutral-400">othmanahmed258@gmail.com</p>
+            <p className="text-neutral-400">othmanahmeddora@gmail.com</p>
           </div>
 
           <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
