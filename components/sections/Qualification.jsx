@@ -46,7 +46,7 @@ const Qualification = () => {
             <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
               <div className="pb-[2rem]">
                 <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
-                  Computer Science
+                  CS50x
                 </h3>
                 <span className="text-neutral-400">Harvard Online</span>
                 <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
@@ -72,7 +72,7 @@ const Qualification = () => {
                 <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
                   Front-end Development
                 </h3>
-                <span className="text-neutral-400">Youtube</span>
+                <span className="text-neutral-400">LinkedIn Learning</span>
                 <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
                   <LuCalendarDays /> Nov 2023 - jan 2024{" "}
                 </div>

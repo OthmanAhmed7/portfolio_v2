@@ -9,11 +9,11 @@ const Header = () => {
 
   return (
     <>
-      <div
+      {/* <div
         className={`${
           toggle ? "fixed bg-black/30 top-0 left-0 w-[100vw] h-[100vh]" : ""
         }`}
-      ></div>
+      ></div> */}
       <header className="fixed top-0 left-0 right-0 mx-auto mt-[2rem] flex justify-center z-[100]">
         <nav className="hidden md:block">
           <ul className="flex gap-[2rem] font-[500] shadow-lg px-[1.8rem] py-[.7rem] bg-white/40 backdrop-blur-sm w-fit rounded-full border outline-none">
