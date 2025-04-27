@@ -25,11 +25,11 @@ const Work = () => {
         <div className="rounded-[.8rem] shadow-xl">
           <div className="w-full h-[18rem] overflow-hidden relative">
             <Image
-              src="/img/portfolio-page.png"
-              width={700}
-              height={700}
+              src="/img/hero.jpg"
+              width={1000}
+              height={1000}
               alt="Photo of the hero section"
-              className="rounded-tr-[.8rem] rounded-tl-[.8rem]"
+              className="rounded-tr-[.8rem] rounded-tl-[.8rem] h-full"
             />
 
             <div className="absolute top-[1rem] left-1rem z-30 w-full h-full">
@@ -51,9 +51,7 @@ const Work = () => {
           </div>
 
           <div className="p-[1.5rem]">
-            <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">
-              My Portfolio
-            </h3>
+            <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">ETA Group</h3>
 
             <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
@@ -68,9 +66,10 @@ const Work = () => {
             </div>
 
             <p className="text-neutral-400">
-              This is my portfolio app showcasing my favorite projects, my work
-              process, Qualification, the technologies that I&rsquo;m using, and
-              more to get to know me.
+              This is ETA group for interior design, Furniture, and Decor web
+              app. <br />
+              Seamless Design with blazing fast performance, this app reach the
+              score of 92% in performance.
             </p>
           </div>
         </div>
@@ -135,7 +134,7 @@ const Work = () => {
         <div className="rounded-[.8rem] shadow-xl">
           <div className="w-full h-[18rem] overflow-hidden relative">
             <Image
-              src="/img/logo.svg"
+              src="/img/logo.jpg"
               width={700}
               height={700}
               alt="Photo of the hero section"
@@ -144,17 +143,14 @@ const Work = () => {
 
             <div className="absolute top-[1rem] left-1rem z-30 w-full h-full">
               <button className="absolute bg-white/40 backdrop-blur-sm left-[1rem] w-[31px] h-[31px] cursor-pointer rounded-full">
-                <Link
-                  href="https://hoobank-one-sigma.vercel.app/"
-                  target="_blank"
-                >
+                <Link href="https://digimosh.vercel.app/" target="_blank">
                   <HiMiniSignal className="w-[30px] h-[30px] p-[.3rem]" />
                 </Link>
               </button>
 
               <button className="absolute bg-white/40 backdrop-blur-sm w-[31px] left-[3.5rem] h-[31px] cursor-pointer rounded-full">
                 <Link
-                  href="https://github.com/OthmanAhmed7/hoobank"
+                  href="https://github.com/OthmanAhmed7/digimosh"
                   target="_blank"
                 >
                   <LuGithub className="w-[30px] h-[30px] p-[.3rem]" />
@@ -168,6 +164,9 @@ const Work = () => {
 
             <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
+                Next.js
+              </p>
+              <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
@@ -176,9 +175,10 @@ const Work = () => {
             </div>
 
             <p className="text-neutral-400">
-              A full Responsive web app. Hoo Bank is my Implementation for a
-              bank website , it has a seamless and simple designs and a some
-              fine touches to complete the over all look of the website.
+              A form for official governments documents & contracts in Saudi
+              Arabia. <br />
+              The user user fill the form and and will be able to download the
+              PDF document with his data.
             </p>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Work = () => {
         <div className="rounded-[.8rem] shadow-xl">
           <div className="w-full h-[18rem] overflow-hidden relative">
             <Image
-              src="/img/ai.png"
+              src="/img/maids.jpg"
               width={700}
               height={700}
               alt="Photo of the hero section"
@@ -195,14 +195,14 @@ const Work = () => {
 
             <div className="absolute top-[1rem] left-1rem z-30 w-full h-full">
               <button className="absolute bg-white/40 backdrop-blur-sm left-[1rem] w-[31px] h-[31px] cursor-pointer rounded-full">
-                <Link href="https://gpt3-six-sigma.vercel.app/" target="_blank">
+                <Link href="https://maids-xi.vercel.app/" target="_blank">
                   <HiMiniSignal className="w-[30px] h-[30px] p-[.3rem]" />
                 </Link>
               </button>
 
               <button className="absolute bg-white/40 backdrop-blur-sm w-[31px] left-[3.5rem] h-[31px] cursor-pointer rounded-full">
                 <Link
-                  href="https://github.com/OthmanAhmed7/gpt3"
+                  href="https://github.com/OthmanAhmed7/maids"
                   target="_blank"
                 >
                   <LuGithub className="w-[30px] h-[30px] p-[.3rem]" />
@@ -216,17 +216,20 @@ const Work = () => {
 
             <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
+                Next.js
+              </p>
+              <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
-                CSS
+                Tailwind
               </p>
             </div>
 
             <p className="text-neutral-400">
-              This is my Implementation for an AI website. This futuristic
-              looking website has been done using React.js And vanilla CSS.
-              Beautifully designed to give the user a nice UI/Ux experience.
+              A web app for home cleaning service. <br />
+              Responsive design, pixel-perfect, and bug-free code. This web app
+              got a 98% in performance.
             </p>
           </div>
         </div>
@@ -234,7 +237,7 @@ const Work = () => {
         <div className="rounded-[.8rem] shadow-xl">
           <div className="w-full h-[18rem] overflow-hidden relative">
             <Image
-              src="/img/gericht.png"
+              src="/img/anime_lib.jpg"
               width={1000}
               height={1000}
               alt="Photo of the hero section"
@@ -244,7 +247,7 @@ const Work = () => {
             <div className="absolute top-[1rem] left-1rem z-30 w-full h-full">
               <button className="absolute bg-white/40 backdrop-blur-sm left-[1rem] w-[31px] h-[31px] cursor-pointer rounded-full">
                 <Link
-                  href="https://gericht-restaurant-ten-pearl.vercel.app/"
+                  href="https://anime-library-ten.vercel.app/"
                   target="_blank"
                 >
                   <HiMiniSignal className="w-[30px] h-[30px] p-[.3rem]" />
@@ -253,7 +256,7 @@ const Work = () => {
 
               <button className="absolute bg-white/40 backdrop-blur-sm w-[31px] left-[3.5rem] h-[31px] cursor-pointer rounded-full">
                 <Link
-                  href="https://github.com/OthmanAhmed7/Gericht-Restaurant"
+                  href="https://github.com/OthmanAhmed7/anime_library"
                   target="_blank"
                 >
                   <LuGithub className="w-[30px] h-[30px] p-[.3rem]" />
@@ -264,22 +267,25 @@ const Work = () => {
 
           <div className="p-[1.5rem]">
             <h3 className="text-[1.2rem] font-[600] mb-[.6rem]">
-              Gericht Restaurant
+              Anime Library
             </h3>
 
             <div className="flex flex-wrap items-center gap-[1rem] mb-[1rem]">
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
+                Next.js
+              </p>
+              <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
                 React
               </p>
               <p className="bg-neutral-800 px-[.8rem] py-[.2rem] rounded-full text-white text-[13px] font-[500]">
-                CSS
+                Tailwind
               </p>
             </div>
 
             <p className="text-neutral-400">
-              Gericht Restaurant is a fully resbonsive web app for a restaurant
-              that specializes in the finest food with a lot of awards and
-              recognition for it&rsquo;s top-notch chief.
+              A web app for all anime lovers to discover the huge world of
+              anime. This app has login and register with hashed password for
+              authentication.
             </p>
           </div>
         </div>

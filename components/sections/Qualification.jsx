@@ -44,6 +44,32 @@ const Qualification = () => {
         {type === "education" && (
           <div className="flex flex-col items-center">
             <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
+              <div className="pb-[2rem] w-[13.5rem]">
+                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
+                  Full-Stack (Python)
+                </h3>
+                <span className="text-neutral-400">
+                  Information Technology Institute (ITI)
+                </span>
+                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
+                  <LuCalendarDays /> Mar 2025 - Present{" "}
+                </div>
+              </div>
+
+              <div>
+                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
+                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
+              <div></div>
+
+              <div>
+                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
+                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
+              </div>
+
               <div className="pb-[2rem]">
                 <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
                   CS50x
@@ -53,21 +79,9 @@ const Qualification = () => {
                   <LuCalendarDays /> Feb 2024 - May 2024{" "}
                 </div>
               </div>
-
-              <div>
-                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
-                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
-              </div>
             </div>
 
             <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
-              <div></div>
-
-              <div>
-                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
-                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
-              </div>
-
               <div className="pb-[2rem]">
                 <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
                   Front-end Development
@@ -77,18 +91,6 @@ const Qualification = () => {
                   <LuCalendarDays /> Nov 2023 - jan 2024{" "}
                 </div>
               </div>
-            </div>
-
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
-              <div className="pb-[2rem]">
-                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
-                  Web Development
-                </h3>
-                <span className="text-neutral-400">LinkedIn Learning</span>
-                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
-                  <LuCalendarDays /> Aug 2021 - Aug 2022{" "}
-                </div>
-              </div>
 
               <div>
                 <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
@@ -103,13 +105,13 @@ const Qualification = () => {
                 <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
               </div>
 
-              <div>
+              <div className="pb-[2rem]">
                 <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
-                  Civil Engineering
+                  Web Development
                 </h3>
-                <span className="text-neutral-400">New Cairo Academy</span>
+                <span className="text-neutral-400">LinkedIn Learning</span>
                 <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
-                  <LuCalendarDays /> Sep 2017 - Jun 2022{" "}
+                  <LuCalendarDays /> Aug 2021 - Aug 2022{" "}
                 </div>
               </div>
             </div>
