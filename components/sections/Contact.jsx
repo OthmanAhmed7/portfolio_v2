@@ -17,9 +17,9 @@ const Contact = () => {
         <SectionHeader title="Contact Me" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[5rem] mt-[5rem]">
-        <div className="flex flex-col gap-[2rem]">
-          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
+      <div className="flex items-start justify-center gap-[4rem] mt-[5rem]">
+        <div className="flex flex-1 flex-col gap-[2rem] w-full">
+          <div className="flex flex-col items-center py-[1.5rem] w-full shadow-lg rounded-[.8rem]">
             <MdOutlineMailOutline className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -29,7 +29,7 @@ const Contact = () => {
             <p className="text-neutral-400">othmanahmeddora@gmail.com</p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full shadow-lg rounded-[.8rem]">
             <FaWhatsapp className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -39,7 +39,7 @@ const Contact = () => {
             <p className="text-neutral-400">+0201011889502</p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full shadow-lg rounded-[.8rem]">
             <FaLinkedin className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -57,7 +57,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center py-[1.5rem] w-full lg:w-[25rem] shadow-lg rounded-[.8rem]">
+          <div className="flex flex-col items-center py-[1.5rem] w-full shadow-lg rounded-[.8rem]">
             <FaGithub className="text-[1.5rem] text-neutral-800" />
 
             <h3 className="text-[1.1rem] mt-[.3rem] font-[500] text-neutral-800">
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className="flex-[1.5] w-full">
           <form className="flex flex-col gap-[2rem]">
             <div className="relative">
               <input
