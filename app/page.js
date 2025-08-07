@@ -1,12 +1,12 @@
-import About from "@/components/sections/About";
-import Contact from "@/components/sections/Contact";
-import Footer from "@/components/sections/Footer";
-import Header from "@/components/sections/Header";
-import Hero from "@/components/sections/Hero";
-import InfiniteMarquee from "@/components/sections/InfiniteMarquee";
-import Qualification from "@/components/sections/Qualification";
-import Skill from "@/components/sections/Skill";
-import Work from "@/components/sections/Work";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import InfiniteMarquee from "@/components/InfiniteMarquee";
+import Qualification from "@/components/Qualification";
+import Skill from "@/components/Skill";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (

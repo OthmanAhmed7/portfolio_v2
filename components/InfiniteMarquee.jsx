@@ -1,17 +1,19 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import { Logo } from "./Logo"; // Assuming Logo is a component that renders an image
 
 const InfiniteMarquee = () => {
   return (
     <section className="max-w-[1300px] mx-auto">
       <Marquee autoFill>
+        <Logo src="/img/html-1.svg" alt="HTML logo" />
         <Image
           src="/img/html-1.svg"
           width={700}
           height={700}
           alt="HTML logo"
-          className="w-[60px] h-[60px] grayscale mx-[2rem] hover:grayscale-0"
+          className="w-[60px] h-[60px] grayscale mx-[2rem] hover:grayscale-0 transition duration-300 ease-in-out"
         />
         <Image
           src="/img/css-3.svg"
