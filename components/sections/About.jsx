@@ -46,7 +46,7 @@ const About = () => {
             </div>
 
             <button className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1.1rem]">
-              <a href="/Othman_Ahmed's_Resume.pdf" download="">
+              <a href="/Othman-Ahmed.pdf" download="">
                 {" "}
                 Download <strong>CV</strong>
               </a>
