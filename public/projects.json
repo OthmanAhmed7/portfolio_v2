@@ -45,7 +45,7 @@
   },
   {
     "id": 3,
-    "img": "/img/event1.webp",
+    "img": "/img/furniture.jpg",
     "title": "Furniture",
     "description": "A multi-page E-Commerce furniture store with various features like a search bar, sort options, add to cart, remove from cart, add quantity, or decrease it inside the cart, blog page, and more.",
     "technologies": [
