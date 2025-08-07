@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "img": "/img/campoal.png",
+    "title": "Campoal",
+    "description": "A fully functional full-stack fundraising platform built with React, MongoDB, Supabase, and Bootstrap. It allows users to create and manage fundraising campaigns, track donations, and engage with supporters.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "MongoDB"
+      },
+      {
+        "id": 2,
+        "name": "React"
+      },
+      {
+        "id": 3,
+        "name": "Supabase"
+      }
+    ],
+    "liveLink": "https://campoal-fund-raising.netlify.app/",
+    "githubLink": "https://github.com/ITI-Grad-Team/spark-fund"
+  },
+  {
+    "id": 2,
+    "img": "/img/hero.jpg",
+    "title": "ETA Group",
+    "description": "This is ETA group for interior design, Furniture, and Decor web app.Seamless Design with blazing fast performance, this app reach the score of 92% in performance.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Next.js"
+      },
+      {
+        "id": 2,
+        "name": "React"
+      },
+      {
+        "id": 3,
+        "name": "Tailwind"
+      }
+    ],
+    "liveLink": "https://eta-blue.vercel.app/",
+    "githubLink": "https://github.com/OthmanAhmed7/eta"
+  },
+  {
+    "id": 3,
+    "img": "/img/event1.webp",
+    "title": "Furniture",
+    "description": "A multi-page E-Commerce furniture store with various features like a search bar, sort options, add to cart, remove from cart, add quantity, or decrease it inside the cart, blog page, and more.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "Next.js"
+      },
+      {
+        "id": 2,
+        "name": "Sanity"
+      },
+      {
+        "id": 3,
+        "name": "Tailwind"
+      }
+    ],
+    "liveLink": "https://furniture-lilac-eight.vercel.app/",
+    "githubLink": "https://github.com/OthmanAhmed7/Furniture"
+  },
+  {
+    "id": 4,
+    "img": "/img/mb.svg",
+    "title": "Movies Box",
+    "description": "A fully functional movie and tv shows app that allows users to search for movies and tv shows, view details, and manage their watch-list. It features a user-friendly interface and integrates with a movie database API.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React"
+      },
+      {
+        "id": 2,
+        "name": "Redux"
+      },
+      {
+        "id": 3,
+        "name": "Axios"
+      },
+      {
+        "id": 4,
+        "name": "Router"
+      }
+    ],
+    "liveLink": "https://movie-box-jade.vercel.app/",
+    "githubLink": "https://github.com/ahmed-elsabbagh778/Movies-App"
+  },
+  {
+    "id": 5,
+    "img": "/img/card-game.jpg",
+    "title": "Memory Card Game",
+    "description": "A Memory Card Game built with HTML, CSS, and JavaScript. The game challenges players to match pairs of cards while keeping track of their moves and time taken.",
+    "technologies": [
+      {
+        "id": 1,
+        "name": "HTML"
+      },
+      {
+        "id": 2,
+        "name": "CSS"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript"
+      }
+    ],
+    "liveLink": "https://ahmed-elsabbagh778.github.io/Memory-Card-Game/game.html",
+    "githubLink": "https://github.com/ahmed-elsabbagh778/Memory-Card-Game"
+  }
+]
