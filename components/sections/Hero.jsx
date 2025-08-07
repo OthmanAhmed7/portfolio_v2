@@ -44,7 +44,7 @@ const Hero = () => {
           href="#contact"
           className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1rem] md:text-[1.1rem]"
         >
-          Connect With Me
+          Contact Me
         </Link>
       </button>
     </section>
