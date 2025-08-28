@@ -133,7 +133,6 @@ const Qualification = () => {
 
               <div>
                 <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
-                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
               </div>
 
               <div className="pb-[2rem]">
@@ -145,41 +144,6 @@ const Qualification = () => {
                 </span>
                 <div className="flex gap-[.5rem] items-center text-[.7rem] md:text-[1rem]">
                   <LuCalendarDays /> Oct 2022 - Feb 2024{" "}
-                </div>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
-              <div className="pb-[2rem]">
-                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
-                  Assistant Director
-                </h3>
-                <span className="text-neutral-400">Villa Hanin</span>
-                <div className="flex gap-[.5rem] items-center text-[.7rem] md:text-[1rem]">
-                  <LuCalendarDays /> Apr 2020 - May 2022{" "}
-                </div>
-              </div>
-
-              <div>
-                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
-                <span className="block w-[1px] h-[100%] bg-primary-400 transform translate-x-[7px] translate-y-[-7px]"></span>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-[1fr,max-content,1fr] gap-x-[1rem] md:gap-x-[3rem]">
-              <div></div>
-
-              <div>
-                <span className="inline-block w-[1rem] h-[1rem] bg-primary-400 rounded-full"></span>
-              </div>
-
-              <div>
-                <h3 className="text-[1rem] md:text-[1.1rem] font-[500]">
-                  Assistant Engineer
-                </h3>
-                <span className="text-neutral-400">Omar Dora Designs</span>
-                <div className="flex gap-[.5rem] items-center text-[.8rem] md:text-[1rem]">
-                  <LuCalendarDays /> Jul 2018 - Apr 2020{" "}
                 </div>
               </div>
             </div>
