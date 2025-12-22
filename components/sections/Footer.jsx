@@ -14,7 +14,10 @@ const Footer = () => {
 
       <div className="flex items-center">
         <button>
-          <a href="https://www.linkedin.com/in/othman-ahmed7/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/othmanahmeddora/"
+            target="_blank"
+          >
             <IoLogoLinkedin className="w-8 h-8 mr-4 text-neutral-800" />
           </a>
         </button>
