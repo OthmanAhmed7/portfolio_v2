@@ -85,7 +85,11 @@ const Contact = () => {
         </div>
 
         <div className="flex-[1.5] w-full">
-          <form className="flex flex-col gap-[2rem]">
+          <form
+            action="https://formspree.io/f/xpqajlvn"
+            method="POST"
+            className="flex flex-col gap-[2rem]"
+          >
             <div className="relative">
               <input
                 type="text"
@@ -112,12 +116,16 @@ const Contact = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-full px-[1rem] h-[18rem] border rounded-[.8rem] border-neutral-400"
+                className="w-full p-[1rem] h-[18rem] border rounded-[.8rem] border-neutral-400"
               ></textarea>
               <label className="absolute top-[-.8rem] bg-white border border-white left-[1rem]">
                 Message
               </label>
             </div>
+
+            <button type="submit" className="text-right">
+              Submit
+            </button>
           </form>
         </div>
       </div>
