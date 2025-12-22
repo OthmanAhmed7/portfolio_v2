@@ -20,13 +20,13 @@ const Qualification = () => {
         <div className="flex gap-[2rem] mb-[5rem]">
           <button
             onClick={() => setType("education")}
-            className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-[.8rem] font-[500] text-[1.1rem] transition duration-300 ease-in-out"
+            className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-[.8rem] font-[500] text-[1.1rem] hover:text-neutral-800 hover:bg-white transition duration-300 ease-in"
           >
             Education
           </button>
           <button
             onClick={() => setType("experience")}
-            className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-[.8rem] font-[500] text-[1.1rem] transition duration-300 ease-in-out"
+            className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-[.8rem] font-[500] text-[1.1rem] hover:text-neutral-800 hover:bg-white transition duration-300 ease-in"
           >
             Experience
           </button>

@@ -42,7 +42,7 @@ const Hero = () => {
       <button>
         <Link
           href="#contact"
-          className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1rem] md:text-[1.1rem]"
+          className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1rem] md:text-[1.1rem] hover:text-neutral-800 hover:bg-white transition duration-300 ease-in"
         >
           Contact Me
         </Link>

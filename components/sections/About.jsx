@@ -36,7 +36,7 @@ const About = () => {
               </p>
             </div>
 
-            <button className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1.1rem]">
+            <button className="px-[1.8rem] py-[.7rem] text-white bg-neutral-800 rounded-full font-[500] text-[1.1rem] hover:text-neutral-800 hover:bg-white transition duration-300 ease-in">
               <a href="/Othman Ahmed Frontend.pdf" download="">
                 {" "}
                 Download <strong>CV</strong>
