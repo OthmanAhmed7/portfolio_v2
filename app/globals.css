@@ -20,3 +20,7 @@
     #040c18
   );
 }
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
